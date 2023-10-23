@@ -1,0 +1,21 @@
+{
+    "name": "rock-scissors-paper",
+    "version": "0.1.1",
+    "description": "For Study",
+    "main": "src/js/index.js",
+    "private": true,
+    "devDependencies": {
+        "buffer": "^6.0.3",
+        "cross-env": "^7.0.3",
+        "parcel": "^2.10.0",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "@tensorflow-models/handpose": "^0.1.0",
+        "@tensorflow/tfjs": "^4.11.0",
+        "canvas": "^2.11.2"
+    },
+    "scripts": {
+        "watch": "cross-env NODE_ENV=development parcel src/index.html --open"
+    }
+}
