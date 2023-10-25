@@ -30,3 +30,10 @@ yarn watch
 ### If yarn is not on your system
 npm install -g yarn
 ```
+
+## Flow
+
+### RSP
+1. Hand recognization
+2. Check variables
+3. return values
